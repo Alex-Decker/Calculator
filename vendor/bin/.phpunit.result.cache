@@ -1,1 +1,0 @@
-{"version":1,"defects":{"test::testDiviser_DivisionPar0":3,"test::testDiviser_Resultat":4,"test::Diviser_Resultat":3,"test::Diviser_DivisionPar0":3},"times":{"test::testDiviser_DivisionPar0":0.001,"test::testDiviser_Resultat":0.003,"test::Diviser_Resultat":0.003,"test::Diviser_DivisionPar0":0}}
