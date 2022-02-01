@@ -26,5 +26,8 @@ jobs:
     - name: update composer
       run: composer update
       
+    - name: pecl install pcov
+      run: pecl install pcov
+      
     - name: test
       run: composer exec phpunit test.php
