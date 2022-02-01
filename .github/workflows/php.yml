@@ -21,13 +21,15 @@ jobs:
       run: composer install 
       
     - name: install phpunit
-      run: composer require --dev phpunit/phpunit  
+      run: composer require --dev phpunit/phpunit
+      
+    - name: pecl install pcov
+      run: pecl install pcov
       
     - name: update composer
       run: composer update
       
-    - name: pecl install pcov
-      run: composer require --dev pcov/clobbervendor/bin/pcov clobber
+
       
     - name: test
       run: composer exec phpunit test.php
