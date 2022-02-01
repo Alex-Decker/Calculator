@@ -27,7 +27,7 @@ jobs:
       run: composer update
       
     - name: pecl install pcov
-      run: pecl install pcov
+      run: composer require --dev pcov/clobbervendor/bin/pcov clobber
       
     - name: test
       run: composer exec phpunit test.php
